@@ -1,0 +1,45 @@
+/*背景圖作為描繪用
+body {
+    background-image: url('https://i.ebayimg.com/images/g/mWcAAOSwknJX0ItQ/s-l400.jpg')
+}
+*/
+
+.iphone,
+.screen,
+.button-icon {
+    border: 1px solid black;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    margin: auto;
+}
+
+.iphone {
+    height: 336px;
+    width: 164px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.screen {
+    background-color: black;
+    height: 258px;
+    width: 144px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.button-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 295px;
+}
